@@ -11,7 +11,7 @@ export default siteConfig({
   // basic site info (required)
   name: 'Misty 项目草稿',
   domain: 'drafts.misty.moe',
-  author: 'Misty',
+  author: 'Ducchieu05',
 
   // open graph metadata (optional)
   description: '这里是Misty存放她平时工作项目笔记的地方，欢迎来这里搜罗信息',
@@ -19,8 +19,8 @@ export default siteConfig({
   // socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
-  twitter: 'MiscMisty',
-  github: 'NyaMisty',
+  twitter: 'Ducchieu05',
+  github: 'Ducchieu05',
   //linkedin: '#',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
