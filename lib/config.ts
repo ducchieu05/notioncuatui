@@ -97,9 +97,7 @@ export const includeNotionIdInUrls: boolean = getSiteConfig(
   !!isDev
 )
 
-export const navigationStyle: NavigationStyle = getSiteConfig(
-  'navigationStyle',
-  'custom'
+export const navigationStyle: NavigationStyle = 'custom'
 )
 
 export const navigationLinks: Array<NavigationLink | undefined> = getSiteConfig(
