@@ -19,8 +19,8 @@ export default siteConfig({
   // socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
-  twitter: 'Ducchieu05',
-  github: 'Ducchieu05',
+  //twitter: 'Ducchieu05',
+  //github: 'Ducchieu05',
   //linkedin: '#',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
