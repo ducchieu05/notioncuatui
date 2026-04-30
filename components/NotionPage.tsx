@@ -1,3 +1,4 @@
+import { NotionPageHeader } from './NotionPageHeader'
 import cs from 'classnames'
 import dynamic from 'next/dynamic'
 import Image from 'next/legacy/image'
@@ -324,6 +325,7 @@ export function NotionPage({
         searchNotion={config.isSearchEnabled ? searchNotion : undefined}
         pageAside={pageAside}
         footer={<Footer />}
+        header={<NotionPageHeader block={block} />}
       />
 
       <GitHubShareButton />
