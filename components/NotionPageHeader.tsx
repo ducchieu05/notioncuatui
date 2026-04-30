@@ -79,9 +79,34 @@ export function NotionPageHeader({
             })
             .filter(Boolean)}
 
-          <ToggleThemeButton />
+        {/* MENU MỚI */}
+<div
+  style={{
+    display: 'flex',
+    alignItems: 'center',
+    gap: '16px',
+    marginRight: '12px'
+}}>
+  <components.Link
+    href="/about"
+    className={cs(styles.navLink, 'breadcrumb', 'button')}
+  >
+    About
+  </components.Link>
 
-          {isSearchEnabled && <Search block={block} title={null} />}
+  <components.Link
+    href="/contact"
+    className={cs(styles.navLink, 'breadcrumb', 'button')}
+  >
+    Contact
+  </components.Link>
+</div>
+
+{/* DARK MODE */}
+<ToggleThemeButton />
+
+{/* SEARCH */}
+{isSearchEnabled && <Search block={block} title={null} />}
         </div>
       </div>
     </header>
