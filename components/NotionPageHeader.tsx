@@ -46,7 +46,10 @@ export function NotionPageHeader({
   return (
     <header className='notion-header'>
       <div className='notion-nav-header'>
-        <Breadcrumbs block={block} rootOnly={true} />
+      // <Breadcrumbs block={block} rootOnly={true} />
+        <div style={{ fontWeight: 600 }}>
+  {block.properties?.title?.[0]?.[0]}
+</div>
 
         <div className='notion-nav-header-rhs breadcrumbs'>
           {navigationLinks
