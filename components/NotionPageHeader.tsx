@@ -39,8 +39,8 @@ export function NotionPageHeader({
 }) {
   const { components, mapPageUrl } = useNotionContext()
 
-  if (navigationStyle === 'default') {
-    return <Header block={block} />
+ // if (navigationStyle === 'default') {
+   // return <Header block={block} />
   }
 
   return (
