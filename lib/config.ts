@@ -99,7 +99,7 @@ export const includeNotionIdInUrls: boolean = getSiteConfig(
 
 export const navigationStyle: NavigationStyle = getSiteConfig(
   'navigationStyle',
-  'default'
+  'custom'
 )
 
 export const navigationLinks: Array<NavigationLink | undefined> = getSiteConfig(
